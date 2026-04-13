@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pudipeddi Siri Chandana - Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+section {
+    padding: 80px 40px;
+}
+
+#hero {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.projects, .skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h3>Siri Chandana</h3>
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<section id="hero">
+    <h1>Hi, I'm Deepak Kumar</h1>
+    <p>Web Developer | Problem Solver</p>
+</section>
+
+<section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+        I'm a Computer Science undergraduate with strong skills in HTML, CSS, JavaScript, 
+        and backend development using Spring Boot. I enjoy building responsive web applications 
+        and solving real-world problems through technology. I’m passionate about continuous learning 
+        and improving user experiences.
+    </p>
+</section>
+
+<section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="card">HTML, CSS, JavaScript</div>
+        <div class="card">Java, Python, C</div>
+        <div class="card">SQL & Databases</div>
+        <div class="card">AWS Cloud</div>
+        <div class="card">Spring Boot & REST APIs</div>
+    </div>
+</section>
+
+<section id="projects" class="container">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <h3>Password Generator</h3>
+            <p>A web tool built using HTML, CSS, and JavaScript to generate strong and secure passwords.</p>
+        </div>
+
+        <div class="card">
+            <h3>Credit Card Fraud Detection</h3>
+            <p>A machine learning system built to identify fraudulent credit card transactions.</p>
+        </div>
+
+        <div class="card">
+            <h3>Crime Prediction System</h3>
+            <p>A web application designed to forecast crime probabilities using machine learning.</p>
+        </div>
+
+        <div class="card">
+            <h3>Chat Room (WebSockets)</h3>
+            <p>A real-time chat room application designed to enable instant communication between users.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: deepakkumarkasarapu@gmail.com</p>
+    <p>Phone: +91 9014225679</p>
+    <p>
+        GitHub: <a href="https://github.com/siri2304">github.com/DeepakKumar1508</a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 Deepak Kumar</p>
+</footer>
+
+</body>
+</html>
